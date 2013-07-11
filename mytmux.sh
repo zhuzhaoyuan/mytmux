@@ -20,3 +20,5 @@ make install
 rm -fr ~/tmux-build
 
 export PATH=$PATH:$HOME/bin:$HOME/tmux/bin
+echo "export PATH=$PATH:$HOME/bin:$HOME/tmux/bin" >> ~/.bash_profile
+
