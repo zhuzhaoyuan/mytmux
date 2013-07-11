@@ -16,3 +16,5 @@ cd tmux-1.8
 ./configure --prefix=$HOME/tmux CFLAGS="-I$HOME/tmux/include" LDFLAGS="-L$HOME/tmux/lib"
 make -j2
 make install
+
+rm -fr ~/tmux-build
