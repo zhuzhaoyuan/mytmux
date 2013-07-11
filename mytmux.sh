@@ -18,3 +18,5 @@ make -j2
 make install
 
 rm -fr ~/tmux-build
+
+export PATH=$PATH:$HOME/bin:$HOME/tmux/bin
